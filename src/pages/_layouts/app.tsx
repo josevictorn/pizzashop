@@ -4,7 +4,7 @@ import { Header } from '@/components/header'
 
 export function AppLayout() {
   return (
-    <div className="grid min-h-screen grid-cols-2 antialiased">
+    <div className="flex min-h-screen flex-col antialiased">
       <div className="flex h-full flex-col justify-between b">
         <Header />
       </div>
